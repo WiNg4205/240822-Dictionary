@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-screen overflow-x-hidden" :class="{'bg-neutral-50': !darkMode, 'bg-black': darkMode}">
+  <div class="h-screen w-screen overflow-x-hidden" :class="{'bg-neutral-50': !darkMode, 'bg-neutral-950': darkMode}">
     <AppHeader :text="text" :changeText="changeText" :darkMode="darkMode" :switchMode="switchMode" />
     <Fetch :word="text" :darkMode="darkMode" />
     <slot />

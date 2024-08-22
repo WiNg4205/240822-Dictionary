@@ -8,7 +8,7 @@
         <font-awesome :icon="['fas', 'magnifying-glass']" class="cursor-pointer" @click="changeText(word)" />
       </div>
     </div>
-    <div class="cursor-pointer border rounded-full flex items-center justify-center size-10" @click="switchMode">
+    <div class="cursor-pointer border rounded-full flex items-center justify-center size-10" :class="{'bg-neutral-950 hover:bg-neutral-900': darkMode, 'bg-white hover:bg-neutral-100': !darkMode}" @click="switchMode">
       <font-awesome :icon="['far', 'moon']" v-if="darkMode" class="size-6" />
       <font-awesome :icon="['far', 'sun']" v-else class="size-6" />      
     </div>
