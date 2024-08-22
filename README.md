@@ -1,1 +1,4 @@
-# 240822-Dictionary
+# 22/08/24 - Dictionary
+This is a basic single page app where a user types in a word and all definitions are displayed on the screen. I wanted to focus on styling the search bar today. Search bars are not too complex. It is just the input, magnifying glass, rounded borders and maybe a border.
+
+This actually took me a while to make because I implemented a couple of features that I have previously not done. These were fetching (in vue), dark mode, watcheffect. While the UI did end up ok, I still feel unconfident with creating my own UIs. I think I should begin learning figma and practise UI alone because I can't get much experience while being bottlenecked by my coding speed. I am also planning to eventually learn some basic graphic design so I can make my own icons instead of being limited to fontawesome. But the hyperfocus on UI is getting a little stale so maybe I could also switch it up with some backend or non-css frontend for the next few miniprojects.
